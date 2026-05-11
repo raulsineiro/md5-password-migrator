@@ -55,6 +55,12 @@ contraseña en plano.
 
 ![Ejecución del script](imagenes/cmd_crack.jpg)
 
+Se consiguieron revertir **171 de 293 hashes únicos**. Los 122 restantes no pudieron
+ser crackeados porque MD5 es una función unidireccional — no existe forma matemática
+de revertirla, solo se puede "adivinar" la contraseña probando candidatos del diccionario
+y comparando el resultado. Si la contraseña original no aparece en `rockyou.txt`
+(por ser poco común, compleja, muy larga o personalizada), el hash queda sin revertir.
+
 ### 3. Resultado — plain.txt
 
 Contraseñas revertidas a texto plano. Las líneas en blanco corresponden a hashes que
