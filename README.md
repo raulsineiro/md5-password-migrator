@@ -1,4 +1,4 @@
-# MD5 Password Migrator 🔐
+# 🔐 MD5 Password Migrator
 
 Script en Python para revertir contraseñas hasheadas en MD5 (sin sal) y migrarlas
 a un almacenamiento más seguro usando **SHA256 con sal**, siguiendo buenas prácticas
